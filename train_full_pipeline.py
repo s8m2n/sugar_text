@@ -11,6 +11,7 @@ class AttrDict(dict):
 
 if __name__ == "__main__":
     # ----- Parser -----
+
     parser = argparse.ArgumentParser(description='Script to optimize a full SuGaR model.')
     
     # Data and vanilla 3DGS checkpoint
